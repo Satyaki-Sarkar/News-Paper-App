@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "news-paper",
+    "slug": "snack-3dc95eff-d7d7-487f-8a32-abba1618ff48",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier" : "com.satyaki.newspaperapp"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/InternationalNews.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.satyaki.newspaperapp"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
